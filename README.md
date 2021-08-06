@@ -1,7 +1,9 @@
 # python-gui-maker
 
-### A GUI Builder with code generation capabilities for Python Tkinter. This software does a lot already, but can do a lot more. Thus, collaborations are highly welcome :)
+### A GUI Builder with code generation capabilities for Python Tkinter. It allows you to create your widgets (drag, drop and resize) right on the GUI window. Nothing like canvas usage. Experience the real deal. This software does a lot already, but can do a lot more. Thus, collaborations are highly welcome :)
 ### PS: I am still looking for a suitable name for this project. Suggestions are most welcome. 
+
+### In addition, IMO, with collaborations, forks, etc on this project, I believe WE can come up with something more sophisticated than Glade, Pygubu, PyDraw, etc.
 
 #### An over seven-thousand-five-hundred (7500) lines of python code that does something AWESOME 😄. Find out 👇
 
@@ -9,7 +11,7 @@
 
 This software allows you build GUIs for your python application faster. It takes off the enormous time spent deliberating on what color to use, where to place your widget, what styling to use, etc. With this software, you are able to care less of the visual feedback you give users of your application.
 
-#### ----- POINTS (well yeah, points 😆) ----- #
+#### ----- POINTS TO NOTE (well yeah, points 😆) ----- #
 * This software supports only the python programming language. 
 * It is cross-platform: can work on Windows, Linux and MAC-OS with native support (I guess).
     * However, I only provide an executable for Windows.
