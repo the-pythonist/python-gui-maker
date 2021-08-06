@@ -25,13 +25,13 @@ This software allows you build GUIs for your python application faster. It takes
 * ##### gui-maker Main Interface with Attribute Editor - This is a view of the main interface along with the Attribute Editor. The attribute editor contains all the attributes that can be defined to configured your widget.
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/full_system_view.png" />
   
-* gui-maker Textbox-Code-Generator - This part of the system contains the outputs of the code for your widgets. You can copy the code.
+* ##### gui-maker Textbox-Code-Generator - This part of the system contains the outputs of the code for your widgets. You can copy the code.
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/code_generation_of_the_system.png" />
 
-* gui-maker Window Setup Dialog - This part of the system allows you configure some properties for your GUI window.
+* ##### gui-maker Window Setup Dialog - This part of the system allows you configure some properties for your GUI window.
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/window_setup_for_your_gui.png" />
 
-* gui-maker Font Styler - This part of the system allows you configure and customize the font for your widgets.
+* ##### gui-maker Font Styler - This part of the system allows you configure and customize the font for your widgets.
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/font_styling_part.png" />
 
 
@@ -41,10 +41,10 @@ This software allows you build GUIs for your python application faster. It takes
 
 ### ----- SAMPLE GUIs DESIGNED BY gui-maker -----
 Find here, snapshots of two applications that had their GUIs design by gui-maker
-* Book Store Application
+* ##### Book Store Application
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/sample_gui_bookstore_app.png" />
 
-* Sample Login Page
+* ##### Sample Login Page
 <img src="https://github.com/the-pythonist/python-gui-maker/blob/main/gui-maker%20snap%20shots/sample_gui_login_page.png" />
 
 
