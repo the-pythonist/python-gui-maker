@@ -11,6 +11,10 @@
 
 This software allows you build GUIs for your python application faster. It takes off the enormous time spent deliberating on what color to use, where to place your widget, what styling to use, etc. With this software, you are able to care less of the visual feedback you give users of your application.
 
+##### If you probably need drag/drop and widget resizing features for your code, you can view my cool tkinter_dndr project here:
+- https://pypi.org/project/tkinter-dndr/
+- https://github.com/the-pythonist/tkinter_dndr
+
 #### ----- POINTS TO NOTE (well yeah, points 😆) ----- #
 * This software supports only the python programming language. 
 * It is cross-platform: can work on Windows, Linux and MAC-OS with native support (I guess).
