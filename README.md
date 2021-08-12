@@ -16,6 +16,9 @@ This software allows you build GUIs for your python application faster. It takes
 * It is cross-platform: can work on Windows, Linux and MAC-OS with native support (I guess).
     * However, I only provide an executable for Windows.
     * If you want an executable for Linux and MAC-OS, you will need to build that from the source code. You can use the py-installer package (https://pypi.org/project/pyinstaller/)
+
+#### ----- USE CASE DIAGRAM FOR gui-maker -----
+<img src="https://github.com/the-pythonist/python-gui-maker/blob/main/use_case_diagram.png" />
     
 #### ----- TUTORIAL ON HOW TO USE THIS SYSTEM (gui-maker) ----- 
 - [ ] This is currently unchecked. I plan to do a video for this. Please raise an issue if you are currently viewing this and you do not see a video.
