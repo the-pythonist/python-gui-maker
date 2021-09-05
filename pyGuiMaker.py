@@ -7,6 +7,7 @@ from tkinter import ttk
 from tkinter import colorchooser
 from tkinter import filedialog
 from tkinter import font
+from functools import partial
 
 # from fontTopLevel import *
 
@@ -74,13 +75,11 @@ class pyPROApp:
 
         ### comms for Beautify
         cascade_change_theme = Menu()
-        cascade_change_theme.add_command(label="alt", command=lambda: self.styleWidgetConfigLabel.theme_use("alt"))
-        cascade_change_theme.add_command(label="clam", command=lambda: self.styleWidgetConfigLabel.theme_use("clam"))
-        cascade_change_theme.add_command(label = "classic", command = lambda: self.styleWidgetConfigLabel.theme_use("classic"))
-        cascade_change_theme.add_command(label = "default", command = lambda: self.styleWidgetConfigLabel.theme_use("default"))
-        cascade_change_theme.add_command(label="vista", command=lambda: self.styleWidgetConfigLabel.theme_use("vista"))
-        cascade_change_theme.add_command(label="winnative", command=lambda: self.styleWidgetConfigLabel.theme_use("winnative"))
-        cascade_change_theme.add_command(label="xpnative", command=lambda: self.styleWidgetConfigLabel.theme_use("xpnative"))
+        for theme_name in self.styleWidgetConfigLabel.theme_names():
+            cascade_change_theme.add_command(
+                label=theme_name,
+                command=partial(self.styleWidgetConfigLabel.theme_use, theme_name),
+            )
 
         command4Beautify = Menu()
         command4Beautify.add_separator()
