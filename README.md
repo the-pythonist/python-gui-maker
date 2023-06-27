@@ -3,8 +3,6 @@
 ##### A GUI Builder with code generation capabilities for Python Tkinter. It allows you to create your widgets (drag, drop and resize) right on the GUI window. Nothing like canvas usage. Experience the real deal. This software does a lot already, but can do a lot more. Thus, collaborations are highly welcome :)
 ##### PS: I am still looking for a suitable name for this project. Suggestions are most welcome. 
 
-##### In addition, IMO, with collaborations, forks, etc on this project, I believe WE can come up with something more sophisticated than Glade, Pygubu, PyDraw, etc.
-
 ##### An over seven-thousand-five-hundred (7500) lines of python code that does something AWESOME 😄. Find out 👇
 
 ###### This software system only supports the tk widgets in the Tkinter framework. The system could be improved by providing support for the ttk widgets
